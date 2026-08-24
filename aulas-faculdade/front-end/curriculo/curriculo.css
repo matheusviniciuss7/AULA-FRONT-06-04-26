@@ -1,0 +1,72 @@
+* {
+    color: #000000;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.4;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #000;
+}
+
+header {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.dados-lado {
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr; 
+    gap: 50px;
+}
+
+h2 {
+    color: #3498db; 
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+section, div, aside {
+    margin-bottom: 25px;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.cursos p {
+    margin-bottom: 15px;
+}
